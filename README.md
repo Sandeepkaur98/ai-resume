@@ -1,17 +1,36 @@
-# Repository: Endee fork + AI Resume Semantic Search
+# 🧠 AI Resume Semantic Search System
 
-This repository contains:
+---
 
-- **`ai-resume/`** — Fork of the **Endee** project (C++ sources, `src/`, `infra/`, `tests/`, `third_party/`, etc.). **Do not remove or modify** these trees for the Python assignment unless you intend to work on Endee itself.
-- **`rag_app/`** — **AI Resume Semantic Search** application (Python): PDF upload, local embeddings, in-memory cosine-similarity search, Streamlit UI.
+## 📌 Project Overview
 
-## Quick start (semantic search app)
+The **AI Resume Semantic Search System** is an intelligent application that helps recruiters efficiently find the most relevant candidates from a collection of resumes using **semantic search and AI embeddings**.
 
-```bash
-pip install -r rag_app/requirements.txt
-streamlit run rag_app/app.py
-```
+Unlike traditional keyword-based systems, this project understands the **context and meaning** of queries and resumes, enabling more accurate and relevant candidate matching.
 
-**Windows:** run **`run_resume_search.bat`** in this folder to install dependencies (if needed) and launch the app in your browser.
+---
 
-Full documentation: **[rag_app/README.md](rag_app/README.md)**.
+## ❗ Problem Statement
+
+Recruiters often spend a significant amount of time manually reviewing resumes.
+
+Traditional filtering methods rely on keyword matching, which:
+
+- Miss relevant candidates due to different wording  
+- Return inaccurate results  
+- Increase hiring time and effort  
+
+---
+
+## 💡 Solution
+
+This project solves the problem by implementing **semantic search using vector embeddings**:
+
+- Converts resumes into numerical vector representations (embeddings)  
+- Converts user queries into embeddings  
+- Uses similarity comparison to find the most relevant resumes  
+
+---
+
+## 🏗️ System Architecture
+
