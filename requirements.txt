@@ -1,8 +1,6 @@
-# Duplicate of rag_app/requirements.txt — hosts often only install from the repo root.
-
 streamlit==1.41.0
-sentence-transformers==3.0.1
-transformers==4.46.3
-torch==2.6.0
-numpy==2.2.2
-pypdf==4.0.0
+sentence-transformers
+transformers
+torch
+numpy<2.0
+pypdf
