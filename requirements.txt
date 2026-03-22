@@ -1,5 +1,6 @@
 streamlit==1.41.0
-sentence-transformers
-transformers
+sentence-transformers==2.2.2
+transformers==4.36.2
+torch==2.2.2
 numpy<2.0
 pypdf
