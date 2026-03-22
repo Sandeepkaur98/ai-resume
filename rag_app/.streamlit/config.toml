@@ -1,0 +1,11 @@
+# Streamlit picks this up when you run: streamlit run rag_app/app.py
+[browser]
+gatherUsageStats = false
+
+[server]
+# Avoid "Address already in use" surprises in dev
+port = 8501
+
+[theme]
+# Light, readable defaults (override in ~/.streamlit/config.toml if you prefer)
+base = "light"
