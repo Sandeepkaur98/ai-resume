@@ -1,6 +1,5 @@
 streamlit==1.41.0
 sentence-transformers
 transformers
-torch
 numpy<2.0
 pypdf
