@@ -1,10 +1,12 @@
-# AI Resume Semantic Search — rag_app
-streamlit>=1.28.0
-sentence-transformers>=2.2.0
-numpy>=1.24.0
-pypdf>=4.0.0
-torch>=2.0.0
-# Optional HTTP API
-fastapi>=0.109.0
-uvicorn[standard]>=0.27.0
-python-multipart>=0.0.6
+# Pinned for reproducible deploy (Streamlit Cloud, Render, Railway, Heroku) and local dev.
+#
+# These versions differ slightly from older course handouts (e.g. torch 2.1 / transformers 4.36)
+# so that pip can install on Python 3.11–3.13 without building Rust extensions for `tokenizers`.
+# PDF reading uses `pypdf` (PyPI name; same role as legacy PyPDF2).
+
+streamlit==1.41.0
+sentence-transformers==3.0.1
+transformers==4.46.3
+torch==2.6.0
+numpy==2.2.2
+pypdf==4.0.0

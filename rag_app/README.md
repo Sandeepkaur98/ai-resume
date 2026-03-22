@@ -66,13 +66,17 @@ Because of portability and grading constraints, **vectors are held only in RAM**
 
 **Python 3.10+** recommended.
 
-From the repository root:
+From the repository root (the folder that contains `rag_app/`):
 
 ```bash
-pip install -r rag_app/requirements.txt
+pip install -r requirements.txt
 ```
 
+(`pip install -r rag_app/requirements.txt` is equivalent — same pins.)
+
 The first run downloads the `sentence-transformers` model (network required once).
+
+**Deploy (Streamlit Cloud, Render, etc.):** see **`../DEPLOY.md`** in the repository root. That folder also has a **`requirements.txt`** copy for hosts that only install dependencies from the repo root.
 
 ---
 
